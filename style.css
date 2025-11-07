@@ -1,0 +1,70 @@
+
+body {
+  background: linear-gradient(135deg, #004aad, #001f54);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(10px);
+}
+
+.navbar a.nav-link {
+  color: white !important;
+  transition: color 0.3s;
+}
+
+.navbar a.nav-link:hover {
+  color: #ffccff !important;
+}
+
+.navbar-brand {
+  color: #ffccff !important;
+  font-weight: 600;
+}
+
+
+.h3 {
+  color: #ffccff;
+  font-weight: 500;
+}
+
+.lar {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.eur {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffd700;
+}
+
+
+p {
+  color: #e0e0e0;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.btn-2 {
+  color: white;
+  background-color: purple;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-2:hover {
+  background-color: #b300b3;
+  transform: scale(1.05);
+}
